@@ -1,0 +1,60 @@
+{
+  "stage": "Stage 5 finite-size PID hierarchy",
+  "Bethe_N16_total": 12,
+  "Bethe_N16_structural_pass": 7,
+  "Bethe_N16_disorder_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "accepted_disorder_seeds": [
+    1,
+    3,
+    4,
+    5,
+    8,
+    9,
+    11
+  ],
+  "coarse_half_gamma_median": 0.15,
+  "fine_half_gamma_median": 0.65,
+  "information_half_time_ratio_median": 4.333333333333334,
+  "two_state_N16_pass": 0,
+  "two_state_N16_count": 5,
+  "product_N16_pass": 0,
+  "product_N16_count": 5,
+  "larger_Bethe_structural_pass_count_by_size": {
+    "32": 3,
+    "64": 3
+  },
+  "larger_Bethe_disorder_count_by_size": {
+    "32": 3,
+    "64": 3
+  },
+  "larger_Bethe_ESS_gamma_cutoffs": {
+    "32": {
+      "4": 0.04,
+      "5": 0.06,
+      "8": 0.06
+    },
+    "64": {
+      "4": 0.025,
+      "5": 0.025,
+      "8": 0.016
+    }
+  },
+  "largeN_null_pass_count_by_model": {
+    "two_state": 0,
+    "product": 0
+  },
+  "caution": "N32/64 posterior particle ESS limits reliable inference to early times; nominal ESS ignores MCMC autocorrelation and potential unsampled valleys; no late fine-level decisions accepted."
+}

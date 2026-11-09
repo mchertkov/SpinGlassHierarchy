@@ -1,0 +1,10 @@
+{
+  "N": 32,
+  "disorder": 4,
+  "repeat": 0,
+  "sweeps": 12000,
+  "remaining_cold_time_samples": 100,
+  "chains": 16,
+  "minimum_roundtrips": 22,
+  "elapsed_s": 6.84
+}

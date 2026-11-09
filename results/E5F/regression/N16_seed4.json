@@ -1,0 +1,123 @@
+{
+  "N": 16,
+  "seed": 4,
+  "paths": 80,
+  "reference_particles": 800,
+  "method": "exact Ising posterior compared to independent-IID-prior particle reweighting",
+  "gamma_grid": [
+    0.0,
+    0.002,
+    0.004,
+    0.007,
+    0.01,
+    0.016,
+    0.025,
+    0.04,
+    0.06,
+    0.09,
+    0.13,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "per_gamma": [
+    {
+      "gamma": 0.0,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.02364633264676187,
+      "q90_TV_posterior_mass": 0.023646332646761872,
+      "min_ESS": 799.9999999999995
+    },
+    {
+      "gamma": 0.002,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.023980696115376465,
+      "q90_TV_posterior_mass": 0.027213800662675175,
+      "min_ESS": 699.2902522175556
+    },
+    {
+      "gamma": 0.004,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.024459327366224103,
+      "q90_TV_posterior_mass": 0.028805037842016244,
+      "min_ESS": 604.5059478945718
+    },
+    {
+      "gamma": 0.007,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.024419789697077983,
+      "q90_TV_posterior_mass": 0.02900545630425241,
+      "min_ESS": 612.1192032149972
+    },
+    {
+      "gamma": 0.01,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.025697637530904722,
+      "q90_TV_posterior_mass": 0.03171580437851225,
+      "min_ESS": 544.1711946374999
+    },
+    {
+      "gamma": 0.016,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.026072612957574025,
+      "q90_TV_posterior_mass": 0.03283960673867138,
+      "min_ESS": 402.7095862789229
+    },
+    {
+      "gamma": 0.025,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.027136081669262162,
+      "q90_TV_posterior_mass": 0.03574786218611105,
+      "min_ESS": 311.0477359776575
+    },
+    {
+      "gamma": 0.04,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.028152512223191116,
+      "q90_TV_posterior_mass": 0.04079184210226607,
+      "min_ESS": 261.72454946014017
+    },
+    {
+      "gamma": 0.06,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.028617467564137196,
+      "q90_TV_posterior_mass": 0.04467023355755946,
+      "min_ESS": 179.94705428703668
+    },
+    {
+      "gamma": 0.09,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.028376931879021117,
+      "q90_TV_posterior_mass": 0.04531228695421717,
+      "min_ESS": 157.29199204660938
+    },
+    {
+      "gamma": 0.13,
+      "frac_ESS_pass": 1.0,
+      "mean_TV_posterior_mass": 0.029000259924549365,
+      "q90_TV_posterior_mass": 0.04860838051673427,
+      "min_ESS": 126.0585703628794
+    },
+    {
+      "gamma": 0.2,
+      "frac_ESS_pass": 0.8625,
+      "mean_TV_posterior_mass": 0.031001125880110027,
+      "q90_TV_posterior_mass": 0.06309622425131448,
+      "min_ESS": 27.077002692784923
+    },
+    {
+      "gamma": 0.3,
+      "frac_ESS_pass": 0.75,
+      "mean_TV_posterior_mass": 0.02971202147532579,
+      "q90_TV_posterior_mass": 0.06315191822464998,
+      "min_ESS": 4.402388077849492
+    },
+    {
+      "gamma": 0.5,
+      "frac_ESS_pass": 0.575,
+      "mean_TV_posterior_mass": 0.036050843563073996,
+      "q90_TV_posterior_mass": 0.09799924709923799,
+      "min_ESS": 2.1748445448009543
+    }
+  ]
+}

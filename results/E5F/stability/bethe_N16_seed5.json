@@ -1,0 +1,27 @@
+{
+  "N": 16,
+  "disorder": 5,
+  "trials": 10,
+  "train_per_trial": 12000,
+  "heldout": 6000,
+  "independent_pair_count": 45,
+  "coarse_ARI_median": 1.0,
+  "coarse_ARI_q10": 1.0,
+  "fine_ARI_median": 0.9996287494842929,
+  "fine_ARI_q10": 0.9933875961211645,
+  "pairs_meeting_stability_fraction": 1.0,
+  "smallest_leaf_mass_by_trial": [
+    0.055244867754404084,
+    0.05523183275035871,
+    0.056559517190366115,
+    0.05524502471993282,
+    0.05524533138818267,
+    0.05524540564213919,
+    0.05524823793605,
+    0.0552315353952485,
+    0.05534569974559589,
+    0.05531608780039751
+  ],
+  "fraction_trial_minimum_leaf_at_least_0p03": 1.0,
+  "methodological_note": "Paired ARIs share training trials and hence are dependent; report descriptive ranges not binomial confidence intervals."
+}
