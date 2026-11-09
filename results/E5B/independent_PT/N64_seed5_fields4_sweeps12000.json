@@ -1,0 +1,119 @@
+{
+  "N": 64,
+  "disorder": 5,
+  "model": "colored graph heat bath PT at FROZEN SMC observation fields",
+  "sweeps": 12000,
+  "fields": 4,
+  "mean_tv": 0.03686982669099433,
+  "max_tv": 0.11641886440881288,
+  "prior_smc_reference": "N32/N64 two independent prior histories",
+  "min_roundtrips": 12,
+  "per_field": [
+    {
+      "field": 0,
+      "planted_path": 0,
+      "gamma": 0.21,
+      "pt_leaf_mass": [
+        0.24833333333333332,
+        0.6058333333333333,
+        0.0025,
+        0.14333333333333334
+      ],
+      "smc_leaf_mass": [
+        0.2933200964051549,
+        0.6622306066595003,
+        0.017534828010824236,
+        0.02691446892452032
+      ],
+      "total_variation": 0.11641886440881288,
+      "roundtrips_per_chain": [
+        18,
+        12,
+        17,
+        13
+      ],
+      "pt_roundtrip_min": 12,
+      "energy_split_difference": 0.06845124745382236
+    },
+    {
+      "field": 1,
+      "planted_path": 0,
+      "gamma": 0.72,
+      "pt_leaf_mass": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "smc_leaf_mass": [
+        0.0,
+        0.0,
+        0.0007755426025823064,
+        0.999224457397423
+      ],
+      "total_variation": 0.0007755426025796285,
+      "roundtrips_per_chain": [
+        27,
+        23,
+        32,
+        22
+      ],
+      "pt_roundtrip_min": 22,
+      "energy_split_difference": 0.017726604436916205
+    },
+    {
+      "field": 2,
+      "planted_path": 1,
+      "gamma": 0.21,
+      "pt_leaf_mass": [
+        0.0008333333333333334,
+        0.0,
+        0.7675,
+        0.23166666666666666
+      ],
+      "smc_leaf_mass": [
+        0.0006510416666666666,
+        0.0,
+        0.7401273678250393,
+        0.25922159050829674
+      ],
+      "total_variation": 0.027554923841628706,
+      "roundtrips_per_chain": [
+        18,
+        14,
+        18,
+        13
+      ],
+      "pt_roundtrip_min": 13,
+      "energy_split_difference": 0.12377415481562082
+    },
+    {
+      "field": 3,
+      "planted_path": 1,
+      "gamma": 0.72,
+      "pt_leaf_mass": [
+        0.0,
+        0.0,
+        0.9975,
+        0.0025
+      ],
+      "smc_leaf_mass": [
+        0.0,
+        0.0,
+        0.9947700240890445,
+        0.005229975910956621
+      ],
+      "total_variation": 0.002729975910956103,
+      "roundtrips_per_chain": [
+        30,
+        27,
+        20,
+        29
+      ],
+      "pt_roundtrip_min": 20,
+      "energy_split_difference": 0.012843249307621818
+    }
+  ],
+  "methodological_limit": "PT round trips and start/split diagnostics required: not an exact comparator",
+  "elapsed_seconds": 8.74258883300081
+}

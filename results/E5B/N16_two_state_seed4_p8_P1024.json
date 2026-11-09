@@ -1,0 +1,329 @@
+{
+  "stage": "5B1",
+  "model": "two_state",
+  "N": 16,
+  "disorder": 4,
+  "paths": 8,
+  "particles": 1024,
+  "sweeps": 0,
+  "mean_tv": 0.010475508395044155,
+  "worst_tv": 0.027648637200667188,
+  "mean_interpopulation_tv": 0.020487689168472094,
+  "mean_magnet_rmse": 0.015702956323989166,
+  "pass_n16": true,
+  "gamma": [
+    0.0,
+    0.008,
+    0.016,
+    0.025,
+    0.04,
+    0.06,
+    0.085,
+    0.12,
+    0.16,
+    0.21,
+    0.28,
+    0.36,
+    0.46,
+    0.58,
+    0.72,
+    0.9,
+    1.15,
+    1.45,
+    1.85,
+    2.4,
+    3.2
+  ],
+  "prior_leaf_masses": [
+    0.2487258714616383,
+    0.2512741285383641,
+    0.25241796816110573,
+    0.24758203183893332
+  ],
+  "path_records": [
+    {
+      "path": 0,
+      "tv_mean": 0.01052762237910759,
+      "tv_max": 0.02358598254067508,
+      "magnet_rmse": 0.012951626004398604,
+      "interpopulation_tv_mean": 0.02026444456183503,
+      "resamples": [
+        11,
+        13
+      ],
+      "splits": [
+        29,
+        15
+      ],
+      "min_ancestors": [
+        234,
+        205
+      ],
+      "min_weight_ESS": [
+        608.5028788404596,
+        621.9839592779991
+      ],
+      "min_distinct": [
+        10,
+        8
+      ],
+      "true_cross": {
+        "first": 0.9,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 0.9,
+        "recross": false
+      }
+    },
+    {
+      "path": 1,
+      "tv_mean": 0.008599845488433722,
+      "tv_max": 0.020071379019728927,
+      "magnet_rmse": 0.012529244703828036,
+      "interpopulation_tv_mean": 0.01852886430330682,
+      "resamples": [
+        14,
+        13
+      ],
+      "splits": [
+        7,
+        13
+      ],
+      "min_ancestors": [
+        179,
+        192
+      ],
+      "min_weight_ESS": [
+        596.080849211487,
+        611.3821282180335
+      ],
+      "min_distinct": [
+        12,
+        27
+      ],
+      "true_cross": {
+        "first": 1.45,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 1.45,
+        "recross": false
+      }
+    },
+    {
+      "path": 2,
+      "tv_mean": 0.011488544153066688,
+      "tv_max": 0.018930232382529485,
+      "magnet_rmse": 0.015082894965031741,
+      "interpopulation_tv_mean": 0.02102657102668889,
+      "resamples": [
+        16,
+        16
+      ],
+      "splits": [
+        18,
+        24
+      ],
+      "min_ancestors": [
+        165,
+        166
+      ],
+      "min_weight_ESS": [
+        607.2934096155476,
+        604.0277416256107
+      ],
+      "min_distinct": [
+        27,
+        13
+      ],
+      "true_cross": {
+        "first": 3.2,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 1.85,
+        "recross": false
+      }
+    },
+    {
+      "path": 3,
+      "tv_mean": 0.012320279916259481,
+      "tv_max": 0.027648637200667188,
+      "magnet_rmse": 0.019029643570124384,
+      "interpopulation_tv_mean": 0.0165490336571342,
+      "resamples": [
+        15,
+        14
+      ],
+      "splits": [
+        24,
+        17
+      ],
+      "min_ancestors": [
+        184,
+        187
+      ],
+      "min_weight_ESS": [
+        651.2305770243086,
+        605.0698185733278
+      ],
+      "min_distinct": [
+        14,
+        19
+      ],
+      "true_cross": {
+        "first": 3.2,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 3.2,
+        "recross": false
+      }
+    },
+    {
+      "path": 4,
+      "tv_mean": 0.009692571803243148,
+      "tv_max": 0.02490234374998744,
+      "magnet_rmse": 0.015765277172680274,
+      "interpopulation_tv_mean": 0.02392267916338764,
+      "resamples": [
+        14,
+        16
+      ],
+      "splits": [
+        14,
+        23
+      ],
+      "min_ancestors": [
+        180,
+        180
+      ],
+      "min_weight_ESS": [
+        627.2824994824945,
+        618.1428943925599
+      ],
+      "min_distinct": [
+        17,
+        21
+      ],
+      "true_cross": {
+        "first": 1.85,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 1.85,
+        "recross": false
+      }
+    },
+    {
+      "path": 5,
+      "tv_mean": 0.010644933730918411,
+      "tv_max": 0.026154240727455667,
+      "magnet_rmse": 0.011455588767433163,
+      "interpopulation_tv_mean": 0.01848384440266913,
+      "resamples": [
+        9,
+        7
+      ],
+      "splits": [
+        4,
+        4
+      ],
+      "min_ancestors": [
+        260,
+        284
+      ],
+      "min_weight_ESS": [
+        612.8148298123667,
+        668.24565031138
+      ],
+      "min_distinct": [
+        6,
+        9
+      ],
+      "true_cross": {
+        "first": 0.72,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 0.72,
+        "recross": false
+      }
+    },
+    {
+      "path": 6,
+      "tv_mean": 0.009838122344038238,
+      "tv_max": 0.02606897170645253,
+      "magnet_rmse": 0.02133922728221343,
+      "interpopulation_tv_mean": 0.0189922246271945,
+      "resamples": [
+        20,
+        18
+      ],
+      "splits": [
+        37,
+        24
+      ],
+      "min_ancestors": [
+        148,
+        139
+      ],
+      "min_weight_ESS": [
+        642.0415064008764,
+        608.0427996398937
+      ],
+      "min_distinct": [
+        11,
+        12
+      ],
+      "true_cross": {
+        "first": 3.2,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 3.2,
+        "recross": false
+      }
+    },
+    {
+      "path": 7,
+      "tv_mean": 0.010692147345285967,
+      "tv_max": 0.027561820552430304,
+      "magnet_rmse": 0.01747014812620369,
+      "interpopulation_tv_mean": 0.026133851605560525,
+      "resamples": [
+        16,
+        15
+      ],
+      "splits": [
+        26,
+        14
+      ],
+      "min_ancestors": [
+        166,
+        158
+      ],
+      "min_weight_ESS": [
+        627.8681585714206,
+        599.1444320008866
+      ],
+      "min_distinct": [
+        19,
+        27
+      ],
+      "true_cross": {
+        "first": 2.4,
+        "recross": false
+      },
+      "smc_cross": {
+        "first": 2.4,
+        "recross": false
+      }
+    }
+  ],
+  "endpoint_source": "iid exhaustive prior",
+  "field_type": "correlated Brownian planted",
+  "notes": "Null controls use exact-posterior iid rejuvenation oracle (available at N16); no claim of a generic null MCMC algorithm",
+  "wall_seconds": 1.40939481300029
+}

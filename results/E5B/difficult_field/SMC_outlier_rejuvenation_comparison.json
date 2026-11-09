@@ -1,0 +1,122 @@
+{
+  "N": 64,
+  "seed": 5,
+  "path": 18,
+  "gamma": 0.36,
+  "exploratory": true,
+  "warning": "This was selected as a failure and must not be merged with the original prespecified cohort",
+  "runs": [
+    {
+      "sweeps": 24,
+      "run": 0,
+      "pop_mass": [
+        0.14520052028426686,
+        0.8547994797157353,
+        0.0,
+        0.0
+      ],
+      "ancestors_at_gamma": 105,
+      "distinct_configurations": 208,
+      "resamples_at_gamma": 11,
+      "wall_so_far_s": 0.7445571230000496
+    },
+    {
+      "sweeps": 24,
+      "run": 1,
+      "pop_mass": [
+        0.0,
+        0.9999999999999964,
+        0.0,
+        0.0
+      ],
+      "ancestors_at_gamma": 119,
+      "distinct_configurations": 160,
+      "resamples_at_gamma": 10,
+      "wall_so_far_s": 1.320417128000372
+    },
+    {
+      "sweeps": 24,
+      "run": 2,
+      "pop_mass": [
+        0.8444634943814363,
+        0.1552850891322659,
+        0.0,
+        0.00025141648629918405
+      ],
+      "ancestors_at_gamma": 68,
+      "distinct_configurations": 246,
+      "resamples_at_gamma": 13,
+      "wall_so_far_s": 2.042876817000433
+    },
+    {
+      "sweeps": 24,
+      "run": 3,
+      "pop_mass": [
+        0.6744791666666687,
+        0.3255208333333329,
+        0.0,
+        0.0
+      ],
+      "ancestors_at_gamma": 103,
+      "distinct_configurations": 255,
+      "resamples_at_gamma": 11,
+      "wall_so_far_s": 2.6977345770001193
+    },
+    {
+      "sweeps": 96,
+      "run": 0,
+      "pop_mass": [
+        0.00487106716561347,
+        0.9951289328343828,
+        0.0,
+        0.0
+      ],
+      "ancestors_at_gamma": 104,
+      "distinct_configurations": 197,
+      "resamples_at_gamma": 12,
+      "wall_so_far_s": 4.66026962900014
+    },
+    {
+      "sweeps": 96,
+      "run": 1,
+      "pop_mass": [
+        0.0013019466578863593,
+        0.9983016041007454,
+        0.0,
+        0.0003964492413664078
+      ],
+      "ancestors_at_gamma": 115,
+      "distinct_configurations": 181,
+      "resamples_at_gamma": 12,
+      "wall_so_far_s": 7.08967959399979
+    },
+    {
+      "sweeps": 96,
+      "run": 2,
+      "pop_mass": [
+        0.5730735459729013,
+        0.34366640358765216,
+        0.0,
+        0.0832600504394469
+      ],
+      "ancestors_at_gamma": 75,
+      "distinct_configurations": 288,
+      "resamples_at_gamma": 11,
+      "wall_so_far_s": 9.24494365100054
+    },
+    {
+      "sweeps": 96,
+      "run": 3,
+      "pop_mass": [
+        0.3021758002099007,
+        0.6211498935144799,
+        0.0,
+        0.07667430627561986
+      ],
+      "ancestors_at_gamma": 85,
+      "distinct_configurations": 221,
+      "resamples_at_gamma": 12,
+      "wall_so_far_s": 11.459029073000238
+    }
+  ]
+}

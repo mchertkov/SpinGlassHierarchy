@@ -1,0 +1,74 @@
+{
+  "N": 64,
+  "seed": 5,
+  "path": 18,
+  "gamma": 0.36,
+  "prior_problem": "one field with maximal SMC discrepancy selected before PT run",
+  "smc_populations": [
+    [
+      0.5290846316811406,
+      0.04631015670554299,
+      0.0,
+      0.4246052116133161
+    ],
+    [
+      0.013020833333333334,
+      0.9869791666666776,
+      0.0,
+      0.0
+    ]
+  ],
+  "independent_PT_leaf_prob": [
+    0.5188888888888888,
+    0.09055555555555556,
+    0.0,
+    0.39055555555555554
+  ],
+  "PT_by_random_and_ordered_start": [
+    [
+      0.5227777777777778,
+      0.08722222222222223,
+      0.0,
+      0.39
+    ],
+    [
+      0.515,
+      0.09388888888888888,
+      0.0,
+      0.39111111111111113
+    ]
+  ],
+  "PT_by_first_and_second_half": [
+    [
+      0.5372222222222223,
+      0.08333333333333333,
+      0.0,
+      0.3794444444444444
+    ],
+    [
+      0.5005555555555555,
+      0.09777777777777778,
+      0.0,
+      0.40166666666666667
+    ]
+  ],
+  "PT_vs_SMC_TV": [
+    0.04424539885001245,
+    0.8964236111111166
+  ],
+  "random_vs_ordered_TV": 0.007777777777777772,
+  "split_half_TV": 0.03666666666666672,
+  "prior_sweeps": null,
+  "posterior_sweeps": 24000,
+  "minimum_roundtrips": 29,
+  "per_chain_roundtrips": [
+    42,
+    33,
+    29,
+    33,
+    39,
+    32
+  ],
+  "elapsed_s": 14.825758261999908,
+  "sampling_caveat": "PT checks do not guarantee all rare basins discovered"
+}
