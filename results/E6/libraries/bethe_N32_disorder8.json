@@ -1,0 +1,129 @@
+{
+  "N": 32,
+  "disorder": 8,
+  "betas": [
+    3.147313529485422e-07,
+    0.056478696534449924,
+    0.1253321292346648,
+    0.19978603060591477,
+    0.2781272499846349,
+    0.35949212598587965,
+    0.44335066667942613,
+    0.5293413892845162,
+    0.6172006163614564,
+    0.706726806479563,
+    0.7977604998427567,
+    0.8901721325593932,
+    0.9838541846168857,
+    1.0787158819373652,
+    1.1746794864349135,
+    1.2716776172491722,
+    1.3696512661342621,
+    1.4685482945425268,
+    1.568322273768572,
+    1.6689315749751155,
+    1.770338644844153,
+    1.8725094215322766,
+    1.9754128583213695,
+    2.07902053108252,
+    2.1833063117817697,
+    2.2882460946123957,
+    2.39381756449418,
+    2.5
+  ],
+  "histories": [
+    {
+      "history": 0,
+      "samples": 40000,
+      "min_swap_acceptance": 0.7024818181818182,
+      "roundtrips_total": 13364,
+      "roundtrips_min": 437,
+      "mean_beta_energy": 88.00073815210332,
+      "energy_first_half": 35.19540269266679,
+      "energy_second_half": 35.20518782901587
+    },
+    {
+      "history": 1,
+      "samples": 40000,
+      "min_swap_acceptance": 0.7022818181818182,
+      "roundtrips_total": 13396,
+      "roundtrips_min": 456,
+      "mean_beta_energy": 88.00364545051687,
+      "energy_first_half": 35.19922364509006,
+      "energy_second_half": 35.203692715323434
+    },
+    {
+      "history": 2,
+      "samples": 40000,
+      "min_swap_acceptance": 0.7005090909090909,
+      "roundtrips_total": 13362,
+      "roundtrips_min": 457,
+      "mean_beta_energy": 87.9971444283205,
+      "energy_first_half": 35.21086532891225,
+      "energy_second_half": 35.18685021374415
+    },
+    {
+      "history": 3,
+      "samples": 40000,
+      "min_swap_acceptance": 0.7043545454545455,
+      "roundtrips_total": 13456,
+      "roundtrips_min": 454,
+      "mean_beta_energy": 88.02595160556453,
+      "energy_first_half": 35.20915520133191,
+      "energy_second_half": 35.21160608311972
+    }
+  ],
+  "total_samples": 160000,
+  "sweeps": 220000,
+  "burn": 20000,
+  "stride": 5,
+  "leaf_mass_new": [
+    0.26923125,
+    0.233175,
+    0.2450875,
+    0.25250625
+  ],
+  "leaf_mass_frozen_symmetrised": [
+    0.2634375,
+    0.2365625,
+    0.2540625,
+    0.2459375
+  ],
+  "leaf_mass_per_history": [
+    [
+      0.27105,
+      0.232375,
+      0.245725,
+      0.25085
+    ],
+    [
+      0.26785,
+      0.2352,
+      0.2453,
+      0.25165
+    ],
+    [
+      0.2671,
+      0.232125,
+      0.246175,
+      0.2546
+    ],
+    [
+      0.270925,
+      0.233,
+      0.24315,
+      0.252925
+    ]
+  ],
+  "max_leaf_mass_diff_vs_frozen": 0.00897500000000001,
+  "max_leaf_mass_spread_histories": 0.003950000000000009,
+  "mean_energy_new": 35.20274796365052,
+  "mean_energy_frozen": 35.18525942948373,
+  "energy_se_frozen": 0.016747559297763753,
+  "ari_frozen_tree_vs_retrained_on_new_library": [
+    0.9787628893808296,
+    0.7769656800563145
+  ],
+  "seconds": 48.4,
+  "note": "Recorded configurations are temporally correlated within each history; global signs randomised exactly."
+}
