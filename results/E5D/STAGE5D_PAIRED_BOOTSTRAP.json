@@ -1,0 +1,80 @@
+[
+  {
+    "N": 32,
+    "seed": 4,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 1.0,
+    "delta_clock_quantiles_gamma": [
+      0.24,
+      0.5574999999999999,
+      1.0899999999999999
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  },
+  {
+    "N": 32,
+    "seed": 5,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 1.0,
+    "delta_clock_quantiles_gamma": [
+      0.27499999999999997,
+      0.4,
+      0.6599999999999999
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  },
+  {
+    "N": 32,
+    "seed": 8,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 0.947,
+    "delta_clock_quantiles_gamma": [
+      0.0,
+      0.075,
+      0.195
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  },
+  {
+    "N": 64,
+    "seed": 4,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 1.0,
+    "delta_clock_quantiles_gamma": [
+      0.075,
+      0.22000000000000003,
+      0.2554999999999973
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  },
+  {
+    "N": 64,
+    "seed": 5,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 0.999,
+    "delta_clock_quantiles_gamma": [
+      0.03499999999999999,
+      0.07999999999999999,
+      0.12499999999999999
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  },
+  {
+    "N": 64,
+    "seed": 8,
+    "n_boot": 2000,
+    "valid_boot": 2000,
+    "prob_fine_clock_later_conditional": 1.0,
+    "delta_clock_quantiles_gamma": [
+      0.22000000000000003,
+      0.4,
+      0.52
+    ],
+    "warning": "Conditional path bootstrap for one fixed disorder; not an unconditional discovery p-value."
+  }
+]

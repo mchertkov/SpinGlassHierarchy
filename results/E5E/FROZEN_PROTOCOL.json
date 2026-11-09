@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-18",
+  "models": [
+    "product",
+    "two_state"
+  ],
+  "sizes": [
+    32,
+    64
+  ],
+  "training_seeds": [
+    4,
+    5,
+    8
+  ],
+  "training_per_fit": 12000,
+  "validation_size": 4000,
+  "independent_prior_reference_size": 12000,
+  "planted_paths_per_case": 24,
+  "gamma_grid": "unchanged Stage5B 21 points through 3.2",
+  "posterior_samples_per_time": 2048,
+  "structural_gate": {
+    "ARI_coarse": 0.9,
+    "ARI_fine": 0.7,
+    "min_leaf_mass": 0.03,
+    "within_minus_sibling_overlap": 0.1
+  },
+  "posterior_PT_random_audit": [
+    {
+      "N": 32,
+      "seed": 5,
+      "path": 4,
+      "gamma": 0.12
+    },
+    {
+      "N": 32,
+      "seed": 4,
+      "path": 13,
+      "gamma": 0.72
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 11,
+      "gamma": 0.12
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 3,
+      "gamma": 0.36
+    }
+  ],
+  "PT_sweeps": 16000,
+  "PT_pass_gate": "Stage5C checks; no reruns",
+  "interpretation": "Three training replicates for null models are not independent quenched couplings; results descriptive and bounded."
+}

@@ -1,0 +1,635 @@
+{
+  "stage": "5E",
+  "rows": [
+    {
+      "model": "product",
+      "N": 32,
+      "seed": 4,
+      "coarse_ARI": 0.00877722127077865,
+      "fine_ARI": 0.011035689861230736,
+      "min_leaf_mass": 0.24291666666666667,
+      "overlap_gap": 0.04073613443809872,
+      "structural_pass": false,
+      "half_coarse": 1.85,
+      "half_fine": 1.45,
+      "coarse_commit": 17,
+      "fine_commit": 10,
+      "fine_recross": 0,
+      "mean_mc_tv": 0.018723260788690476
+    },
+    {
+      "model": "product",
+      "N": 32,
+      "seed": 5,
+      "coarse_ARI": 0.013209254649559639,
+      "fine_ARI": 0.005002521688092307,
+      "min_leaf_mass": 0.24625,
+      "overlap_gap": 0.04085763612306193,
+      "structural_pass": false,
+      "half_coarse": 1.85,
+      "half_fine": 1.15,
+      "coarse_commit": 18,
+      "fine_commit": 10,
+      "fine_recross": 0,
+      "mean_mc_tv": 0.01839483351934524
+    },
+    {
+      "model": "product",
+      "N": 32,
+      "seed": 8,
+      "coarse_ARI": 0.016138043760571024,
+      "fine_ARI": 0.021942127468108984,
+      "min_leaf_mass": 0.24558333333333332,
+      "overlap_gap": 0.04079273579985822,
+      "structural_pass": false,
+      "half_coarse": 0.9,
+      "half_fine": 1.45,
+      "coarse_commit": 20,
+      "fine_commit": 16,
+      "fine_recross": 2,
+      "mean_mc_tv": 0.018293108258928572
+    },
+    {
+      "model": "product",
+      "N": 64,
+      "seed": 4,
+      "coarse_ARI": 0.0017754101540339957,
+      "fine_ARI": 0.004875033922321981,
+      "min_leaf_mass": 0.24433333333333335,
+      "overlap_gap": 0.02064110058686333,
+      "structural_pass": false,
+      "half_coarse": 0.9,
+      "half_fine": 1.45,
+      "coarse_commit": 13,
+      "fine_commit": 9,
+      "fine_recross": 2,
+      "mean_mc_tv": 0.018907335069444444
+    },
+    {
+      "model": "product",
+      "N": 64,
+      "seed": 5,
+      "coarse_ARI": 0.001959455953071329,
+      "fine_ARI": 0.004793124500303148,
+      "min_leaf_mass": 0.24483333333333332,
+      "overlap_gap": 0.02033801204802201,
+      "structural_pass": false,
+      "half_coarse": 0.9,
+      "half_fine": 1.15,
+      "coarse_commit": 15,
+      "fine_commit": 10,
+      "fine_recross": 2,
+      "mean_mc_tv": 0.018342517671130952
+    },
+    {
+      "model": "product",
+      "N": 64,
+      "seed": 8,
+      "coarse_ARI": 0.004651153379386092,
+      "fine_ARI": 0.0032634920737136127,
+      "min_leaf_mass": 0.24666666666666667,
+      "overlap_gap": 0.02046312285638796,
+      "structural_pass": false,
+      "half_coarse": 1.15,
+      "half_fine": 1.15,
+      "coarse_commit": 16,
+      "fine_commit": 11,
+      "fine_recross": 0,
+      "mean_mc_tv": 0.018227229042658732
+    },
+    {
+      "model": "two_state",
+      "N": 32,
+      "seed": 4,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.3338965257048643,
+      "min_leaf_mass": 0.24525,
+      "overlap_gap": 0.013077240171183835,
+      "structural_pass": false,
+      "half_coarse": 0.085,
+      "half_fine": 1.85,
+      "coarse_commit": 24,
+      "fine_commit": 19,
+      "fine_recross": 2,
+      "mean_mc_tv": 0.014034210689484126
+    },
+    {
+      "model": "two_state",
+      "N": 32,
+      "seed": 5,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.3558947046508598,
+      "min_leaf_mass": 0.24283333333333335,
+      "overlap_gap": 0.015806986631983433,
+      "structural_pass": false,
+      "half_coarse": 0.085,
+      "half_fine": 1.45,
+      "coarse_commit": 24,
+      "fine_commit": 18,
+      "fine_recross": 2,
+      "mean_mc_tv": 0.01319521949404762
+    },
+    {
+      "model": "two_state",
+      "N": 32,
+      "seed": 8,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.33362544887847123,
+      "min_leaf_mass": 0.24758333333333332,
+      "overlap_gap": 0.013485515934992809,
+      "structural_pass": false,
+      "half_coarse": 0.06,
+      "half_fine": 1.45,
+      "coarse_commit": 24,
+      "fine_commit": 16,
+      "fine_recross": 1,
+      "mean_mc_tv": 0.013684469556051588
+    },
+    {
+      "model": "two_state",
+      "N": 64,
+      "seed": 4,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.3388979062474987,
+      "min_leaf_mass": 0.24816666666666667,
+      "overlap_gap": 0.006960298593511105,
+      "structural_pass": false,
+      "half_coarse": 0.025,
+      "half_fine": 1.45,
+      "coarse_commit": 24,
+      "fine_commit": 17,
+      "fine_recross": 1,
+      "mean_mc_tv": 0.012371729290674604
+    },
+    {
+      "model": "two_state",
+      "N": 64,
+      "seed": 5,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.3406613805910444,
+      "min_leaf_mass": 0.24941666666666668,
+      "overlap_gap": 0.007197903090698232,
+      "structural_pass": false,
+      "half_coarse": 0.025,
+      "half_fine": 1.45,
+      "coarse_commit": 24,
+      "fine_commit": 17,
+      "fine_recross": 0,
+      "mean_mc_tv": 0.013054741753472222
+    },
+    {
+      "model": "two_state",
+      "N": 64,
+      "seed": 8,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.3349591614035359,
+      "min_leaf_mass": 0.23633333333333334,
+      "overlap_gap": 0.007381804758877064,
+      "structural_pass": false,
+      "half_coarse": 0.025,
+      "half_fine": 1.15,
+      "coarse_commit": 24,
+      "fine_commit": 15,
+      "fine_recross": 3,
+      "mean_mc_tv": 0.012775723896329366
+    },
+    {
+      "model": "bethe",
+      "N": 32,
+      "seed": 4,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.7543329911298119,
+      "min_leaf_mass": 0.09125,
+      "overlap_gap": 0.11319107258632766,
+      "structural_pass": true,
+      "half_coarse": 0.085,
+      "half_fine": 0.72,
+      "coarse_commit": 23,
+      "fine_commit": 20,
+      "fine_recross": 0,
+      "accepted_paths": 23,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    },
+    {
+      "model": "bethe",
+      "N": 32,
+      "seed": 5,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.8981874548456382,
+      "min_leaf_mass": 0.21125,
+      "overlap_gap": 0.12253708923770723,
+      "structural_pass": true,
+      "half_coarse": 0.06,
+      "half_fine": 0.46,
+      "coarse_commit": 24,
+      "fine_commit": 23,
+      "fine_recross": 3,
+      "accepted_paths": 24,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    },
+    {
+      "model": "bethe",
+      "N": 32,
+      "seed": 8,
+      "coarse_ARI": 1.0,
+      "fine_ARI": 0.9436331121150645,
+      "min_leaf_mass": 0.215,
+      "overlap_gap": 0.3802943048332088,
+      "structural_pass": true,
+      "half_coarse": 0.085,
+      "half_fine": 0.16,
+      "coarse_commit": 24,
+      "fine_commit": 24,
+      "fine_recross": 4,
+      "accepted_paths": 24,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    },
+    {
+      "model": "bethe",
+      "N": 64,
+      "seed": 4,
+      "coarse_ARI": 0.9850375240798334,
+      "fine_ARI": 0.8592588230181186,
+      "min_leaf_mass": 0.17625,
+      "overlap_gap": 0.20953023263571602,
+      "structural_pass": true,
+      "half_coarse": 0.06,
+      "half_fine": 0.28,
+      "coarse_commit": 24,
+      "fine_commit": 24,
+      "fine_recross": 4,
+      "accepted_paths": 24,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    },
+    {
+      "model": "bethe",
+      "N": 64,
+      "seed": 5,
+      "coarse_ARI": 0.9850375461133584,
+      "fine_ARI": 0.9103303627936695,
+      "min_leaf_mass": 0.22125,
+      "overlap_gap": 0.24960126433840552,
+      "structural_pass": true,
+      "half_coarse": 0.06,
+      "half_fine": 0.12,
+      "coarse_commit": 5,
+      "fine_commit": 2,
+      "fine_recross": 2,
+      "accepted_paths": 23,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    },
+    {
+      "model": "bethe",
+      "N": 64,
+      "seed": 8,
+      "coarse_ARI": 0.9949999991337731,
+      "fine_ARI": 0.8204087421171877,
+      "min_leaf_mass": 0.2225,
+      "overlap_gap": 0.11090413621756712,
+      "structural_pass": true,
+      "half_coarse": 0.06,
+      "half_fine": 0.46,
+      "coarse_commit": 24,
+      "fine_commit": 23,
+      "fine_recross": 3,
+      "accepted_paths": 24,
+      "sampling": "Stage5C-corrected repeat-consistent subset; N32/64 not uniformly PT-accurate"
+    }
+  ],
+  "aggregate": {
+    "bethe_N32": {
+      "n": 3,
+      "structural_pass": 3,
+      "fine_ARI_median": 0.8981874548456382,
+      "overlap_gap_range": [
+        0.11319107258632766,
+        0.3802943048332088
+      ],
+      "times": [
+        [
+          0.085,
+          0.72
+        ],
+        [
+          0.06,
+          0.46
+        ],
+        [
+          0.085,
+          0.16
+        ]
+      ],
+      "fine_commit_rate": 0.9426328502415459
+    },
+    "bethe_N64": {
+      "n": 3,
+      "structural_pass": 3,
+      "fine_ARI_median": 0.8592588230181186,
+      "overlap_gap_range": [
+        0.11090413621756712,
+        0.24960126433840552
+      ],
+      "times": [
+        [
+          0.06,
+          0.28
+        ],
+        [
+          0.06,
+          0.12
+        ],
+        [
+          0.06,
+          0.46
+        ]
+      ],
+      "fine_commit_rate": 0.6817632850241546
+    },
+    "two_state_N32": {
+      "n": 3,
+      "structural_pass": 0,
+      "fine_ARI_median": 0.3338965257048643,
+      "overlap_gap_range": [
+        0.013077240171183835,
+        0.015806986631983433
+      ],
+      "times": [
+        [
+          0.085,
+          1.85
+        ],
+        [
+          0.085,
+          1.45
+        ],
+        [
+          0.06,
+          1.45
+        ]
+      ],
+      "fine_commit_rate": 0.736111111111111
+    },
+    "two_state_N64": {
+      "n": 3,
+      "structural_pass": 0,
+      "fine_ARI_median": 0.3388979062474987,
+      "overlap_gap_range": [
+        0.006960298593511105,
+        0.007381804758877064
+      ],
+      "times": [
+        [
+          0.025,
+          1.45
+        ],
+        [
+          0.025,
+          1.45
+        ],
+        [
+          0.025,
+          1.15
+        ]
+      ],
+      "fine_commit_rate": 0.6805555555555557
+    },
+    "product_N32": {
+      "n": 3,
+      "structural_pass": 0,
+      "fine_ARI_median": 0.011035689861230736,
+      "overlap_gap_range": [
+        0.04073613443809872,
+        0.04085763612306193
+      ],
+      "times": [
+        [
+          1.85,
+          1.45
+        ],
+        [
+          1.85,
+          1.15
+        ],
+        [
+          0.9,
+          1.45
+        ]
+      ],
+      "fine_commit_rate": 0.5
+    },
+    "product_N64": {
+      "n": 3,
+      "structural_pass": 0,
+      "fine_ARI_median": 0.004793124500303148,
+      "overlap_gap_range": [
+        0.02033801204802201,
+        0.02064110058686333
+      ],
+      "times": [
+        [
+          0.9,
+          1.45
+        ],
+        [
+          0.9,
+          1.15
+        ],
+        [
+          1.15,
+          1.15
+        ]
+      ],
+      "fine_commit_rate": 0.4166666666666667
+    }
+  },
+  "frozen_random_bethe_audits": [
+    {
+      "stage": "5E",
+      "kind": "random_preselected_field_PT",
+      "frozen_case": {
+        "N": 32,
+        "seed": 5,
+        "path": 4,
+        "gamma": 0.12
+      },
+      "index": 0,
+      "field_sha256": "8f5071f8676e3f00dac5366f8f0e912af03e16b5d09c3ec4cdd08cc36e985993",
+      "pt_sweeps": 16000,
+      "pt_gate": true,
+      "pt_roundtrips": [
+        26,
+        28,
+        32,
+        31,
+        29,
+        26
+      ],
+      "pt_start_TV": 0.005000000000000003,
+      "pt_split_TV": 0.016666666666666625,
+      "pt_energy_split_per_spin": 0.000886696001816567,
+      "independently_generated_PT_leaf_mass": [
+        0.006666666666666667,
+        0.004583333333333333,
+        0.5091666666666667,
+        0.4795833333333333
+      ],
+      "stage5d_corrected_leaf_mass": [
+        0.006618548668672496,
+        0.0041732566569784605,
+        0.514920519010296,
+        0.47428767566405333
+      ],
+      "stage5d_corrected_vs_new_PT_TV": 0.005753852343629184,
+      "original_two_pop_vs_PT_TV": [
+        0.00764594872203752,
+        0.019057417413307548
+      ],
+      "stage5c_repaired_path": false,
+      "stage5c_unresolved_path": false,
+      "elapsed_s": 6.9317720120006925,
+      "limitation": "Single independent PT reference with operational gate, not exact-equilibrium certification; no retries; fields were selected uniformly before audit."
+    },
+    {
+      "stage": "5E",
+      "kind": "random_preselected_field_PT",
+      "frozen_case": {
+        "N": 32,
+        "seed": 4,
+        "path": 13,
+        "gamma": 0.72
+      },
+      "index": 1,
+      "field_sha256": "144f0acce0564bf4d0cf4683b7c1236443ebfda6cb974c6fd176e837edc51535",
+      "pt_sweeps": 16000,
+      "pt_gate": true,
+      "pt_roundtrips": [
+        34,
+        39,
+        45,
+        45,
+        40,
+        33
+      ],
+      "pt_start_TV": 0.003333333333333355,
+      "pt_split_TV": 0.010000000000000009,
+      "pt_energy_split_per_spin": 0.0003159466657889354,
+      "independently_generated_PT_leaf_mass": [
+        0.5575,
+        0.4425,
+        0.0,
+        0.0
+      ],
+      "stage5d_corrected_leaf_mass": [
+        0.549821805832815,
+        0.4501781941671863,
+        0.0,
+        0.0
+      ],
+      "stage5d_corrected_vs_new_PT_TV": 0.007678194167185626,
+      "original_two_pop_vs_PT_TV": [
+        0.022195792731676184,
+        0.006839404397305016
+      ],
+      "stage5c_repaired_path": false,
+      "stage5c_unresolved_path": false,
+      "elapsed_s": 4.742624591000094,
+      "limitation": "Single independent PT reference with operational gate, not exact-equilibrium certification; no retries; fields were selected uniformly before audit."
+    },
+    {
+      "stage": "5E",
+      "kind": "random_preselected_field_PT",
+      "frozen_case": {
+        "N": 64,
+        "seed": 5,
+        "path": 11,
+        "gamma": 0.12
+      },
+      "index": 2,
+      "field_sha256": "e96dd8025cc242720ee51d10a366b896549d1fb6696d96452d92a165b645db96",
+      "pt_sweeps": 16000,
+      "pt_gate": true,
+      "pt_roundtrips": [
+        18,
+        18,
+        24,
+        14,
+        23,
+        16
+      ],
+      "pt_start_TV": 0.006666666666666706,
+      "pt_split_TV": 0.021666666666666695,
+      "pt_energy_split_per_spin": 0.00026454882568716087,
+      "independently_generated_PT_leaf_mass": [
+        0.059166666666666666,
+        0.0,
+        0.8991666666666667,
+        0.041666666666666664
+      ],
+      "stage5d_corrected_leaf_mass": [
+        0.054558674646465605,
+        6.956042234899428e-05,
+        0.9025177368194274,
+        0.04285402811175643
+      ],
+      "stage5d_corrected_vs_new_PT_TV": 0.004607992020200264,
+      "original_two_pop_vs_PT_TV": [
+        0.024478626384739792,
+        0.017096245856386087
+      ],
+      "stage5c_repaired_path": true,
+      "stage5c_unresolved_path": false,
+      "elapsed_s": 8.508451340999272,
+      "limitation": "Single independent PT reference with operational gate, not exact-equilibrium certification; no retries; fields were selected uniformly before audit."
+    },
+    {
+      "stage": "5E",
+      "kind": "random_preselected_field_PT",
+      "frozen_case": {
+        "N": 64,
+        "seed": 4,
+        "path": 3,
+        "gamma": 0.36
+      },
+      "index": 3,
+      "field_sha256": "caccc702ae1898233c092ed0a0ce4a2912b8669d216ed64890954e0ecfbe367a",
+      "pt_sweeps": 16000,
+      "pt_gate": true,
+      "pt_roundtrips": [
+        29,
+        28,
+        34,
+        26,
+        32,
+        31
+      ],
+      "pt_start_TV": 0.03333333333333333,
+      "pt_split_TV": 0.0049999999999999975,
+      "pt_energy_split_per_spin": 0.0005002210066220592,
+      "independently_generated_PT_leaf_mass": [
+        0.0,
+        0.0,
+        0.08916666666666667,
+        0.9108333333333334
+      ],
+      "stage5d_corrected_leaf_mass": [
+        0.0,
+        0.0,
+        0.0930074133803957,
+        0.9069925866196066
+      ],
+      "stage5d_corrected_vs_new_PT_TV": 0.003840746713727916,
+      "original_two_pop_vs_PT_TV": [
+        0.017539312447750373,
+        0.020208333333329186
+      ],
+      "stage5c_repaired_path": true,
+      "stage5c_unresolved_path": false,
+      "elapsed_s": 11.783358646000124,
+      "limitation": "Single independent PT reference with operational gate, not exact-equilibrium certification; no retries; fields were selected uniformly before audit."
+    }
+  ],
+  "controls_model": "Product iid Rademacher; symmetric two-state mixture of iid spins with per-site mean 0.8 conditional on global latent sign",
+  "gamma_window": "21 original correlated Gaussian observation times, 0 to 3.2",
+  "joint_gate": "ARI coarse >=0.9; fine>=0.7; each leaf mass >=0.03; within-minus-sibling conditional overlap >=0.10",
+  "interpretive_limit": "The six selected Bethe disorders had previously passed the structural gate; control seeds are independent training replicates rather than quenched disorders. No asymptotic or controlled population-level significance is inferred. PT audit checks only four randomly selected fields; two Stage5D unresolved paths remain unresolved."
+}

@@ -1,0 +1,46 @@
+{
+  "stage": "5E",
+  "kind": "random_preselected_field_PT",
+  "frozen_case": {
+    "N": 64,
+    "seed": 5,
+    "path": 11,
+    "gamma": 0.12
+  },
+  "index": 2,
+  "field_sha256": "e96dd8025cc242720ee51d10a366b896549d1fb6696d96452d92a165b645db96",
+  "pt_sweeps": 16000,
+  "pt_gate": true,
+  "pt_roundtrips": [
+    18,
+    18,
+    24,
+    14,
+    23,
+    16
+  ],
+  "pt_start_TV": 0.006666666666666706,
+  "pt_split_TV": 0.021666666666666695,
+  "pt_energy_split_per_spin": 0.00026454882568716087,
+  "independently_generated_PT_leaf_mass": [
+    0.059166666666666666,
+    0.0,
+    0.8991666666666667,
+    0.041666666666666664
+  ],
+  "stage5d_corrected_leaf_mass": [
+    0.054558674646465605,
+    6.956042234899428e-05,
+    0.9025177368194274,
+    0.04285402811175643
+  ],
+  "stage5d_corrected_vs_new_PT_TV": 0.004607992020200264,
+  "original_two_pop_vs_PT_TV": [
+    0.024478626384739792,
+    0.017096245856386087
+  ],
+  "stage5c_repaired_path": true,
+  "stage5c_unresolved_path": false,
+  "elapsed_s": 8.508451340999272,
+  "limitation": "Single independent PT reference with operational gate, not exact-equilibrium certification; no retries; fields were selected uniformly before audit."
+}

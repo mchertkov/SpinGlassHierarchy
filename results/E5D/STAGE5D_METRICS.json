@@ -1,0 +1,553 @@
+{
+  "stage": "5D",
+  "source": "Stage5B + Stage5C frozen arrays, no new fields or refitted hierarchies",
+  "acceptance_definition": "repeatability <= 0.10 at every saved time after up to two PT anchors, NOT fully independent posterior certification",
+  "primary_statistical_unit": "three independent disorder realizations per size; within-disorder path bootstrap is conditional and not a disorder CI",
+  "event_definition": "first sampled time when TRUE planted class posterior >=0.9; recrossing any later recorded time below 0.8; right-censored at gamma=3.2; no interpolation",
+  "groups": [
+    {
+      "N": 32,
+      "seed": 4,
+      "paths": 24,
+      "accepted": 23,
+      "unresolved_paths": [
+        17
+      ],
+      "repaired_paths": [
+        4
+      ],
+      "one_anchor": 1,
+      "two_anchors": 1,
+      "half_times_all": [
+        0.085,
+        0.58
+      ],
+      "half_times_accepted": [
+        0.085,
+        0.72
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.04,
+          0.085,
+          0.16
+        ],
+        [
+          0.36,
+          0.58,
+          1.15
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        0.0006735891988735032,
+        -0.005848337770880785
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        0.0006647105696804267,
+        -0.005794768212656898
+      ],
+      "terminal_acquired_info_all": [
+        0.6908673224482221,
+        0.5156422482610967
+      ],
+      "terminal_acquired_info_accepted": [
+        0.690867322448222,
+        0.522745863207078
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 24,
+          "commit_accepted": 23,
+          "recross_all": 4,
+          "recross_accepted": 4,
+          "episodes_all": 4,
+          "median_first_accepted": 0.06
+        },
+        {
+          "level": "fine",
+          "commit_all": 21,
+          "commit_accepted": 20,
+          "recross_all": 0,
+          "recross_accepted": 0,
+          "episodes_all": 0,
+          "median_first_accepted": 0.46
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.06557288333508456
+    },
+    {
+      "N": 32,
+      "seed": 5,
+      "paths": 24,
+      "accepted": 24,
+      "unresolved_paths": [],
+      "repaired_paths": [],
+      "one_anchor": 0,
+      "two_anchors": 0,
+      "half_times_all": [
+        0.06,
+        0.46
+      ],
+      "half_times_accepted": [
+        0.06,
+        0.46
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.04,
+          0.06,
+          0.085
+        ],
+        [
+          0.36,
+          0.46,
+          0.72
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        7.625421001911104e-05,
+        -0.002035799682788997
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        7.625421001911104e-05,
+        -0.002035799682788997
+      ],
+      "terminal_acquired_info_all": [
+        0.693119055296269,
+        0.6314704735979575
+      ],
+      "terminal_acquired_info_accepted": [
+        0.693119055296269,
+        0.6314704735979575
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 1,
+          "recross_accepted": 1,
+          "episodes_all": 1,
+          "median_first_accepted": 0.05
+        },
+        {
+          "level": "fine",
+          "commit_all": 23,
+          "commit_accepted": 23,
+          "recross_all": 3,
+          "recross_accepted": 3,
+          "episodes_all": 3,
+          "median_first_accepted": 0.58
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.04921992923233575
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "paths": 24,
+      "accepted": 24,
+      "unresolved_paths": [],
+      "repaired_paths": [
+        1,
+        4,
+        6,
+        16
+      ],
+      "one_anchor": 4,
+      "two_anchors": 0,
+      "half_times_all": [
+        0.085,
+        0.16
+      ],
+      "half_times_accepted": [
+        0.085,
+        0.16
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.06,
+          0.085,
+          0.12
+        ],
+        [
+          0.12,
+          0.16,
+          0.21
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        -0.0002719225904239675,
+        -0.0007919393422894938
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        -0.0002719225904239675,
+        -0.0007919393422894938
+      ],
+      "terminal_acquired_info_all": [
+        0.6914920081288838,
+        0.6748827917115114
+      ],
+      "terminal_acquired_info_accepted": [
+        0.6914920081288838,
+        0.6748827917115114
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 3,
+          "recross_accepted": 3,
+          "episodes_all": 3,
+          "median_first_accepted": 0.06
+        },
+        {
+          "level": "fine",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 4,
+          "recross_accepted": 4,
+          "episodes_all": 5,
+          "median_first_accepted": 0.21
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.062065922041073446
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "paths": 24,
+      "accepted": 24,
+      "unresolved_paths": [],
+      "repaired_paths": [
+        1,
+        3,
+        5,
+        6,
+        7,
+        12,
+        13,
+        17,
+        20,
+        22
+      ],
+      "one_anchor": 8,
+      "two_anchors": 2,
+      "half_times_all": [
+        0.06,
+        0.28
+      ],
+      "half_times_accepted": [
+        0.06,
+        0.28
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.025,
+          0.06,
+          0.085
+        ],
+        [
+          0.16,
+          0.28,
+          0.28
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        -0.0016034711283015035,
+        -0.005240469920957835
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        -0.0016034711283015035,
+        -0.005240469920957835
+      ],
+      "terminal_acquired_info_all": [
+        0.6910858476197431,
+        0.6717639114053371
+      ],
+      "terminal_acquired_info_accepted": [
+        0.6910858476197431,
+        0.6717639114053371
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 1,
+          "recross_accepted": 1,
+          "episodes_all": 1,
+          "median_first_accepted": 0.05
+        },
+        {
+          "level": "fine",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 4,
+          "recross_accepted": 4,
+          "episodes_all": 4,
+          "median_first_accepted": 0.245
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.0671439613358416
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "paths": 24,
+      "accepted": 23,
+      "unresolved_paths": [
+        16
+      ],
+      "repaired_paths": [
+        1,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        20,
+        22,
+        23
+      ],
+      "one_anchor": 9,
+      "two_anchors": 4,
+      "half_times_all": [
+        0.06,
+        0.12
+      ],
+      "half_times_accepted": [
+        0.06,
+        0.12
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.04,
+          0.04,
+          0.085
+        ],
+        [
+          0.12,
+          0.12,
+          0.21
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        -0.001222828829057887,
+        -0.00044814245151481025
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        -0.0012225462371663331,
+        -0.0004299661219332451
+      ],
+      "terminal_acquired_info_all": [
+        0.6789852827959583,
+        0.686417792816585
+      ],
+      "terminal_acquired_info_accepted": [
+        0.6802656722273727,
+        0.6862575433994647
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 6,
+          "commit_accepted": 5,
+          "recross_all": 6,
+          "recross_accepted": 5,
+          "episodes_all": 8,
+          "median_first_accepted": 0.016
+        },
+        {
+          "level": "fine",
+          "commit_all": 3,
+          "commit_accepted": 2,
+          "recross_all": 3,
+          "recross_accepted": 2,
+          "episodes_all": 3,
+          "median_first_accepted": 0.12
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.09466705068018462
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "paths": 24,
+      "accepted": 24,
+      "unresolved_paths": [],
+      "repaired_paths": [
+        4,
+        7,
+        10
+      ],
+      "one_anchor": 2,
+      "two_anchors": 1,
+      "half_times_all": [
+        0.06,
+        0.46
+      ],
+      "half_times_accepted": [
+        0.06,
+        0.46
+      ],
+      "bootstrap_within_disorder_accepted": [
+        [
+          0.025,
+          0.06,
+          0.06
+        ],
+        [
+          0.28,
+          0.46,
+          0.58
+        ]
+      ],
+      "entropy_curve_at_gamma0_all": [
+        -0.000504269753660247,
+        -8.904850940971709e-05
+      ],
+      "entropy_curve_at_gamma0_accepted": [
+        -0.000504269753660247,
+        -8.904850940971709e-05
+      ],
+      "terminal_acquired_info_all": [
+        0.6926189625486407,
+        0.6438667800746756
+      ],
+      "terminal_acquired_info_accepted": [
+        0.6926189625486407,
+        0.6438667800746756
+      ],
+      "event_summary": [
+        {
+          "level": "coarse",
+          "commit_all": 24,
+          "commit_accepted": 24,
+          "recross_all": 2,
+          "recross_accepted": 2,
+          "episodes_all": 2,
+          "median_first_accepted": 0.04
+        },
+        {
+          "level": "fine",
+          "commit_all": 23,
+          "commit_accepted": 23,
+          "recross_all": 3,
+          "recross_accepted": 3,
+          "episodes_all": 3,
+          "median_first_accepted": 0.36
+        }
+      ],
+      "mean_max_interpopulation_TV": 0.06585514632875904
+    }
+  ],
+  "controls_exact_n16": [
+    {
+      "model": "bethe",
+      "seed": 1,
+      "paths": 12,
+      "half_times": [
+        0.12,
+        0.72
+      ],
+      "terminal_information": [
+        0.6931471805599138,
+        0.5005192053542076
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "bethe",
+      "seed": 3,
+      "paths": 12,
+      "half_times": [
+        0.16,
+        0.58
+      ],
+      "terminal_information": [
+        0.6931471804833268,
+        0.6446127845071261
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "bethe",
+      "seed": 4,
+      "paths": 12,
+      "half_times": [
+        0.12,
+        0.58
+      ],
+      "terminal_information": [
+        0.6907290027428655,
+        0.680634885890666
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "bethe",
+      "seed": 5,
+      "paths": 12,
+      "half_times": [
+        0.16,
+        0.72
+      ],
+      "terminal_information": [
+        0.6931333195745484,
+        0.4250358157779954
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "bethe",
+      "seed": 8,
+      "paths": 12,
+      "half_times": [
+        0.12,
+        0.72
+      ],
+      "terminal_information": [
+        0.6931471805599443,
+        0.48048322978244795
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "two_state",
+      "seed": 4,
+      "paths": 8,
+      "half_times": [
+        0.12,
+        1.45
+      ],
+      "terminal_information": [
+        0.6931471805573816,
+        0.5761240625664148
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    },
+    {
+      "model": "product",
+      "seed": 4,
+      "paths": 8,
+      "half_times": [
+        1.45,
+        1.15
+      ],
+      "terminal_information": [
+        0.5389442882139728,
+        0.5419134721522135
+      ],
+      "note": "Exact posterior; partitions algorithmically inferred, null fine partition not reproducible in Stage5."
+    }
+  ],
+  "unresolved": [],
+  "scientific_warning": "First coarse vs fine 90 percent crossing order is tautologically nested; evidence is in nonzero gaps, information curves and validated overlap structure, not raw ordering.",
+  "all_path_analysis": "Includes both unresolved trajectories for sensitivity; accepted-only analysis excludes them but does not establish independent correctness of remaining paths."
+}
