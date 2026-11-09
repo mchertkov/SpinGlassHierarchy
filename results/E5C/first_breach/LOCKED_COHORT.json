@@ -1,0 +1,343 @@
+{
+  "protocol": "One 24k-sweep 6-chain PT at the first >0.1 breach; anchored 3 independent populations; no adaptive extension",
+  "cases": [
+    {
+      "N": 32,
+      "seed": 4,
+      "path": 4,
+      "gamma": 0.12,
+      "kind": "first-breach",
+      "initial_max_tv": 0.16023637616839817
+    },
+    {
+      "N": 32,
+      "seed": 4,
+      "path": 17,
+      "gamma": 0.16,
+      "kind": "first-breach",
+      "initial_max_tv": 0.44773889434720726
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "path": 1,
+      "gamma": 0.28,
+      "kind": "first-breach",
+      "initial_max_tv": 0.12715761177932172
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "path": 4,
+      "gamma": 0.36,
+      "kind": "first-breach",
+      "initial_max_tv": 0.18117968889357366
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "path": 6,
+      "gamma": 0.28,
+      "kind": "first-breach",
+      "initial_max_tv": 0.15104166666666774
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "path": 16,
+      "gamma": 0.21,
+      "kind": "first-breach",
+      "initial_max_tv": 0.11857142398784853
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 1,
+      "gamma": 0.12,
+      "kind": "first-breach",
+      "initial_max_tv": 0.11848958333333529
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 3,
+      "gamma": 0.28,
+      "kind": "first-breach",
+      "initial_max_tv": 0.10546875000000178
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 5,
+      "gamma": 0.16,
+      "kind": "first-breach",
+      "initial_max_tv": 0.10449910611387708
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 6,
+      "gamma": 0.04,
+      "kind": "first-breach",
+      "initial_max_tv": 0.1129252162654632
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 7,
+      "gamma": 0.21,
+      "kind": "first-breach",
+      "initial_max_tv": 0.27804244781810905
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 12,
+      "gamma": 0.025,
+      "kind": "first-breach",
+      "initial_max_tv": 0.1803224152799108
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 13,
+      "gamma": 0.085,
+      "kind": "first-breach",
+      "initial_max_tv": 0.12100020078036461
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 17,
+      "gamma": 0.04,
+      "kind": "first-breach",
+      "initial_max_tv": 0.1488254500253131
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 20,
+      "gamma": 0.36,
+      "kind": "first-breach",
+      "initial_max_tv": 0.10274742277547821
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 22,
+      "gamma": 0.12,
+      "kind": "first-breach",
+      "initial_max_tv": 0.10021162804737214
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 1,
+      "gamma": 0.58,
+      "kind": "first-breach",
+      "initial_max_tv": 0.14843750000000222
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 8,
+      "gamma": 0.085,
+      "kind": "first-breach",
+      "initial_max_tv": 0.20833333333333548
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 9,
+      "gamma": 0.06,
+      "kind": "first-breach",
+      "initial_max_tv": 0.12169667514231931
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 11,
+      "gamma": 0.04,
+      "kind": "first-breach",
+      "initial_max_tv": 0.20469350463657587
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 12,
+      "gamma": 0.06,
+      "kind": "first-breach",
+      "initial_max_tv": 0.19160935803299334
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 13,
+      "gamma": 0.12,
+      "kind": "first-breach",
+      "initial_max_tv": 0.16230889044220576
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 14,
+      "gamma": 0.21,
+      "kind": "first-breach",
+      "initial_max_tv": 0.18619791666666952
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 15,
+      "gamma": 0.06,
+      "kind": "first-breach",
+      "initial_max_tv": 0.15120769231337156
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 16,
+      "gamma": 0.008,
+      "kind": "first-breach",
+      "initial_max_tv": 0.33113282279300643
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 18,
+      "gamma": 0.008,
+      "kind": "first-breach",
+      "initial_max_tv": 0.940669009961129
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 20,
+      "gamma": 0.025,
+      "kind": "first-breach",
+      "initial_max_tv": 0.1580964188018593
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 22,
+      "gamma": 0.04,
+      "kind": "first-breach",
+      "initial_max_tv": 0.2014479150602952
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 23,
+      "gamma": 0.21,
+      "kind": "first-breach",
+      "initial_max_tv": 0.12121120116307837
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "path": 4,
+      "gamma": 0.04,
+      "kind": "first-breach",
+      "initial_max_tv": 0.11026422077757633
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "path": 7,
+      "gamma": 0.06,
+      "kind": "first-breach",
+      "initial_max_tv": 0.13014365252260457
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "path": 10,
+      "gamma": 0.085,
+      "kind": "first-breach",
+      "initial_max_tv": 0.1047866385372245
+    },
+    {
+      "N": 32,
+      "seed": 4,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    },
+    {
+      "N": 32,
+      "seed": 5,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "path": 0,
+      "gamma": 0.36,
+      "kind": "fixed-index-control"
+    }
+  ],
+  "denominators": [
+    {
+      "N": 32,
+      "seed": 4,
+      "paths": 24,
+      "failed_paths": 2
+    },
+    {
+      "N": 32,
+      "seed": 5,
+      "paths": 24,
+      "failed_paths": 0
+    },
+    {
+      "N": 32,
+      "seed": 8,
+      "paths": 24,
+      "failed_paths": 4
+    },
+    {
+      "N": 64,
+      "seed": 4,
+      "paths": 24,
+      "failed_paths": 10
+    },
+    {
+      "N": 64,
+      "seed": 5,
+      "paths": 24,
+      "failed_paths": 13
+    },
+    {
+      "N": 64,
+      "seed": 8,
+      "paths": 24,
+      "failed_paths": 3
+    }
+  ],
+  "all_144_paths_preserved": true,
+  "limitations": "Only one anchor per flagged path; passing repeat agreement does not prove posterior accuracy"
+}

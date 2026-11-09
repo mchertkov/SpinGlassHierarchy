@@ -1,0 +1,24 @@
+{
+  "case": 1,
+  "N": 64,
+  "disorder": 5,
+  "path": 18,
+  "anchor_gamma": 0.36,
+  "number_independent_PT_references": 2,
+  "populations_per_PT_reference": 3,
+  "worst_pair_TV_full_future": 0.09519500691558774,
+  "passes_0p10_all_times": true,
+  "max_pair_TV_by_gamma": [
+    0.048177083333333655,
+    0.05352293063817788,
+    0.09519500691558774,
+    0.0833333333333339,
+    0.03304100621120049,
+    0.044360543733589414,
+    0.023730147803586385,
+    0.023802197397170686,
+    0.07620862441765189,
+    0.03125000000000039
+  ],
+  "interpretation": "Two independently equilibrated PT anchor libraries; separate SMC random streams within library; comparison still cannot guarantee equilibrium"
+}

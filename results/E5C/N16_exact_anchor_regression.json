@@ -1,0 +1,34 @@
+{
+  "method": "Exact N16 posterior, frozen previously generated Gaussian paths; newly trained independent tree",
+  "records": [
+    {
+      "path": 0,
+      "reference_gate": true,
+      "min_trip": 89,
+      "pt_anchor_tv_exact": 0.0036438873051289275,
+      "max_anchor_to_exact_tv": 0.01149500158375505,
+      "mean_anchor_to_exact_tv": 0.002096142782080505,
+      "worst_population_pair_tv": 0.01692708333333359,
+      "error_at_gamma058": [
+        0.004594092737953938,
+        0.004335207158587959,
+        0.0019812398168494636
+      ]
+    },
+    {
+      "path": 1,
+      "reference_gate": true,
+      "min_trip": 103,
+      "pt_anchor_tv_exact": 0.003142070052237123,
+      "max_anchor_to_exact_tv": 0.048050957281211136,
+      "mean_anchor_to_exact_tv": 0.005380801107848095,
+      "worst_population_pair_tv": 0.06938361235916142,
+      "error_at_gamma058": [
+        0.006893020927785166,
+        0.00881576870000144,
+        0.0038707800204171804
+      ]
+    }
+  ],
+  "elapsed_s": 7.047504934000017
+}

@@ -1,0 +1,46 @@
+{
+  "stage": "5C",
+  "cases_frozen": 38,
+  "case_evaluations_completed": 38,
+  "first_anchor_success": 29,
+  "pt_anchor_gate_success": 38,
+  "second_anchors_completed": 9,
+  "second_anchor_success": 7,
+  "total_flagged_repaired_by_two_anchors": 30,
+  "repeat_consistent_paths_after_repairs": 142,
+  "size_results": [
+    {
+      "N": 32,
+      "baseline_all_paths": 72,
+      "baseline_fail_count": 6,
+      "tested_first_breaches": 6,
+      "first_anchor_success": 5,
+      "independent_PT_anchor_gates": 6,
+      "second_anchor_success": 1,
+      "flagged_repaired_by_two_anchors": 5,
+      "residual_flagged_failures": 1,
+      "fixed_index_controls": 3,
+      "controls_passing": 2
+    },
+    {
+      "N": 64,
+      "baseline_all_paths": 72,
+      "baseline_fail_count": 26,
+      "tested_first_breaches": 26,
+      "first_anchor_success": 19,
+      "independent_PT_anchor_gates": 26,
+      "second_anchor_success": 6,
+      "flagged_repaired_by_two_anchors": 25,
+      "residual_flagged_failures": 1,
+      "fixed_index_controls": 3,
+      "controls_passing": 3
+    }
+  ],
+  "future_references": 6,
+  "future_reference_pass": 6,
+  "main_audit_fields": 6,
+  "exact_n16_paths": 2,
+  "method": "Independent posterior PT frozen-field anchors + original Gaussian path, same candidate hierarchy",
+  "critical_limitation": "Agreement among PT-derived SMC populations does not independently establish each field posterior is correct. Incomplete first-anchor failures and inadequate later PT checks prevent uniform large-N acceptance.",
+  "scientific_gate": "OPEN"
+}

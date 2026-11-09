@@ -1,0 +1,62 @@
+{
+  "check": 1,
+  "case": 0,
+  "kind": "difficult",
+  "N": 32,
+  "disorder": 4,
+  "path": 17,
+  "gamma_anchor": 0.46,
+  "gamma_validation": 1.15,
+  "PT": {
+    "mass": [
+      0.0825,
+      0.9175,
+      0.0,
+      0.0
+    ],
+    "roundtrips": [
+      67,
+      73,
+      72,
+      71,
+      72,
+      69
+    ],
+    "start_tv": 0.002777777777777775,
+    "split_tv": 0.0061111111111111435,
+    "energy_split_per_spin": 0.0003129849856282618,
+    "gate": true
+  },
+  "anchored_populations": [
+    [
+      0.07880425477338386,
+      0.9211957452266174,
+      0.0,
+      0.0
+    ],
+    [
+      0.14154834767072733,
+      0.8584516523292701,
+      0.0,
+      0.0
+    ],
+    [
+      0.098201765483437,
+      0.9017982345165694,
+      0.0,
+      0.0
+    ]
+  ],
+  "anchored_vs_pt_tv": [
+    0.003695745226616781,
+    0.05904834767072859,
+    0.0157017654834338
+  ],
+  "original_vs_pt_tv": [
+    0.011249999999995625,
+    0.015217021447224602
+  ],
+  "reference_gate": true,
+  "elapsed_s": 6.103635447999977,
+  "warning": "Independent PT benchmark remains approximate and is not a guaranteed exact posterior"
+}
